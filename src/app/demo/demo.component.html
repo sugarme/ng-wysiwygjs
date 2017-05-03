@@ -1,0 +1,13 @@
+
+<h1>ng-wysiwygjs & prismjs demo</h1>
+
+<div>
+  <wygeditor [(ngModel)]="testContent" name="testContent"></wygeditor>
+</div>
+
+<!--<div>{{testContent}}</div>-->
+<h2>Note:</h2>
+<p>Press <strong>Ctl+Shift+h</strong> to highlight all code blocks</p>
+<h2>Output: </h2>
+<div [innerHTML]="testContent" ></div>
+

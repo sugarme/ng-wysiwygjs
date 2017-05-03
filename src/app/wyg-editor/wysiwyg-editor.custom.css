@@ -1,0 +1,263 @@
+/* Calibri font source: https://github.com/coderiver/masstar/tree/master/site/fonts */
+/* Font face for different browsers: https://css-tricks.com/snippets/css/using-font-face/ */
+@import url("../../assets/fonts/ff-din-webfont/ff-din-webfont.css");
+@import url("../../assets/fonts/merriweather/merriweather.css");
+
+@font-face {
+  font-family: 'Calibri';
+  src: url('../../assets/fonts/Calibri/Calibri.woff2') format('woff2'),
+		url('../../assets/fonts/Calibri/Calibri-Bold.woff2') format('woff2'),
+		url('../../assets/fonts/Calibri/Calibri-BoldItalic.woff2') format('woff2'),
+		url('../../assets/fonts/Calibri/Calibri-Italic.woff2') format('woff2'),
+		
+		url('../../assets/fonts/Calibri/Calibri.ttf') format('truetype'),
+		url('../../assets/fonts/Calibri/Calibri-Bold.ttf') format('truetype'),
+		url('../../assets/fonts/Calibri/Calibri-Italic.ttf') format('truetype'),
+		url('../../assets/fonts/Calibri/Calibri-BoldItalic.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Lato';
+	src: url('../../assets/fonts/Lato/Lato-Regular.ttf') format('truetype'),
+		url('../../assets/fonts/Lato/Lato-Italic.ttf') format('truetype'),
+		url('../../assets/fonts/Lato/Lato-Bold.ttf') format('truetype')
+	;}
+@font-face {
+	font-family: 'Josefin Slab';
+	src: url('../../assets/fonts/Josefin_Slab/JosefinSlab-Regular.ttf') format('truetype'),
+		url('../../assets/fonts/Josefin_Slab/JosefinSlab-Italic.ttf') format('truetype'),
+		url('../../assets/fonts/Josefin_Slab/JosefinSlab-Bold.ttf') format('truetype')
+	;}
+@font-face {
+	font-family: 'Raleway';
+	src: url('../../assets/fonts/Raleway/Raleway-Regular.ttf') format('truetype'),
+		url('../../assets/fonts/Raleway/Raleway-Italic.ttf') format('truetype'),
+		url('../../assets/fonts/Raleway/Raleway-Bold.ttf') format('truetype')
+	;}
+@font-face {
+	font-family: 'Roboto';
+	src: url('../../assets/fonts/Roboto/Roboto-Regular.ttf') format('truetype'),
+		url('../../assets/fonts/Roboto/Roboto-Italic.ttf') format('truetype'),
+		url('../../assets/fonts/Roboto/Roboto-Bold.ttf') format('truetype')
+	;}
+@font-face {
+	font-family: 'Inconsolata';
+	src: url('../../assets/fonts/Inconsolata/Inconsolata-Regular.ttf') format('truetype'),
+		url('../../assets/fonts/Inconsolata/Inconsolata-Bold.ttf') format('truetype')
+	;}
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../../assets/fonts/Montserrat/Montserrat-Regular.ttf') format('truetype'),
+		url('../../assets/fonts/Montserrat/Montserrat-Bold.ttf') format('truetype')
+	;}
+@font-face {
+	font-family: 'Oswald';
+	src: url('../../assets/fonts/Oswald/Oswald-Regular.ttf') format('truetype'),
+		url('../../assets/fonts/Oswald/Oswald-Light.ttf') format('truetype'),
+		url('../../assets/fonts/Oswald/Oswald-Bold.ttf') format('truetype')
+	;}
+
+textarea {
+    resize: none;
+}
+
+.wysiwyg-editor,
+.wysiwyg-editor body, 
+.wysiwyg-editor p,
+.wysiwyg-editor ul,
+.wysiwyg-editor ol{
+	font-family:'DIN', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.7em;
+	padding-bottom: 10px;
+	}
+.wysiwyg-editor p {
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+.wysiwyg-editor title,
+.wysiwyg-editor h1,
+.wysiwyg-editor h2, 
+.wysiwyg-editor h3, 
+.wysiwyg-editor h4, 
+.wysiwyg-editor h5 {
+	font-family: 'Merriweather', sans-serif;	
+	}
+	
+.wysiwyg-editor body, 
+.wysiwyg-editor p{		
+	margin-top: 3pt;
+	margin-bottom: 3pt;
+	margin-right: -5pt;
+}
+
+/* title*/
+.wysiwyg-editor title{
+	position: relative;
+	font-size:20px;
+	font-weight: 400;
+	background: #355681;
+	color: white;
+	box-shadow: 0 -1px 0 rgba(255,255,255,.8) inset;
+	text-transform:uppercase;
+	text-shadow:0px 0px 1px rgba(0,0,0,0.8);
+	padding:5px 5px;
+	-moz-box-shadow:1px 1px 3px rgba(0,0,0,0.3);
+	-webkit-box-shadow:1px 1px 3px rgba(0,0,0,0.3);
+	box-shadow:1px 1px 3px rgba(0,0,0,0.3);
+}
+
+.wysiwyg-editor title:before,
+.wysiwyg-editor title:after {
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  content:'';
+  border-top: 6px solid #555;
+  border-left: 6px solid transparent;
+}
+
+.wysiwyg-editor title:before {
+  border-top: 6px solid #555;
+  border-right: 6px solid transparent;
+  border-left: none;
+  left: auto;
+  right: 0;
+  bottom: -6px;
+}
+
+/* Default h1-h5 */
+/* Ref. http://www.hongkiat.com/blog/css-snippets-for-designers/ */
+.wysiwyg-editor h1,
+.wysiwyg-editor h2,
+.wysiwyg-editor h3,
+.wysiwyg-editor h4,
+.wysiwyg-editor h5{
+  color: #005a9c;
+}
+.wysiwyg-editor h1{
+  font-size: 2.6em;
+  line-height: 2.45em;
+}
+.wysiwyg-editor h2{
+  font-size: 2.1em;
+  line-height: 1.9em;
+}
+.wysiwyg-editor h3{
+  font-size: 1.8em;
+  line-height: 1.65em;
+}
+.wysiwyg-editor h4{
+  font-size: 1.65em;
+  line-height: 1.4em;
+}
+.wysiwyg-editor h5{
+  font-size: 1.4em;
+  line-height: 1.25em;
+}
+
+/* blockquote */
+/* Ref: https://css-tricks.com/snippets/css/simple-and-nice-blockquote-styling/ */
+
+.wysiwyg-editor blockquote {
+  font-family: 'Josefin Slab', sans-serif;
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+.wysiwyg-editor blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+.wysiwyg-editor blockquote p {
+  display: inline;
+}
+
+/* ------------------ Pre and Code element -------------- */
+/* Ref. from Prismjs okaidia theme */
+/* Pre code */
+.wysiwyg-editor code[class*="language-"],
+.wysiwyg-editor pre[class*="language-"] {
+	color: #f8f8f2;
+	background: #272822;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+.wysiwyg-editor pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+.wysiwyg-editor :not(pre) > .wysiwyg-editor code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* ------ End of Pre code ---------------------*/
+
+body >.container{
+  padding: 60px 5px;
+}
+
+
+.wysiwyg-editor {
+    height: 300px;
+}
+.wysiwyg-container {
+    border: none;
+}
+
+.button {
+    -moz-user-select: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+/* CSS for the font-name + font-size plugin */
+.wysiwyg-plugin-list {
+    max-height: 16em;
+    overflow: auto;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.wysiwyg-plugin-list a,
+.wysiwyg-plugin-list a:link,
+.wysiwyg-plugin-list a:visited {
+    display: block;
+    color: black;
+    padding: 5px 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.wysiwyg-plugin-list a:hover {
+    color: HighlightText;
+    background-color: Highlight;
+}
