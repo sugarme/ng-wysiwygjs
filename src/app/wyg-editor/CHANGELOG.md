@@ -1,5 +1,13 @@
 # ng-wysiwygjs Changelog
 
+## 0.0.5 (2017-5-3)
+
+### Change blockquote fontsize to 1.4em @ wysiwyg-editor.custom.css file.
+
+## 0.0.4 (2017-5-3)
+
+### Update README.md file
+
 ## 0.0.3 (2017-5-3)
 
 ### Update README.md file
