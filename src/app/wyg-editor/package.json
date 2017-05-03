@@ -1,7 +1,29 @@
 {
   "name": "ng-wysiwygjs",
-  "version": "0.0.0",
+  "version": "0.0.4",
   "license": "MIT",
+  "keywords": [
+      "angular",
+      "angular 2",
+      "angular 4",
+      "ng",
+      "ng2",
+      "editor",
+      "wysiwyg",
+      "wysiwyg.js",
+      "prism",
+      "prism.js",
+      "code highlight"
+  ],
+  "author": "SugarMe",
+  "bugs": {
+    "url": "https://github.com/sugarme/ng-wysiwygjs/issues"
+  },
+  "homepage": "http://sugarme.info",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sugarme/ng-wysiwygjs.git"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",

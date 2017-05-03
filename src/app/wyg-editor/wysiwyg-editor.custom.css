@@ -1,59 +1,59 @@
 /* Calibri font source: https://github.com/coderiver/masstar/tree/master/site/fonts */
 /* Font face for different browsers: https://css-tricks.com/snippets/css/using-font-face/ */
-@import url("../../assets/fonts/ff-din-webfont/ff-din-webfont.css");
-@import url("../../assets/fonts/merriweather/merriweather.css");
+@import url("./fonts/ff-din-webfont/ff-din-webfont.css");
+@import url("./fonts/merriweather/merriweather.css");
 
 @font-face {
   font-family: 'Calibri';
-  src: url('../../assets/fonts/Calibri/Calibri.woff2') format('woff2'),
-		url('../../assets/fonts/Calibri/Calibri-Bold.woff2') format('woff2'),
-		url('../../assets/fonts/Calibri/Calibri-BoldItalic.woff2') format('woff2'),
-		url('../../assets/fonts/Calibri/Calibri-Italic.woff2') format('woff2'),
+  src: url('./fonts/Calibri/Calibri.woff2') format('woff2'),
+		url('./fonts/Calibri/Calibri-Bold.woff2') format('woff2'),
+		url('./fonts/Calibri/Calibri-BoldItalic.woff2') format('woff2'),
+		url('./fonts/Calibri/Calibri-Italic.woff2') format('woff2'),
 		
-		url('../../assets/fonts/Calibri/Calibri.ttf') format('truetype'),
-		url('../../assets/fonts/Calibri/Calibri-Bold.ttf') format('truetype'),
-		url('../../assets/fonts/Calibri/Calibri-Italic.ttf') format('truetype'),
-		url('../../assets/fonts/Calibri/Calibri-BoldItalic.ttf') format('truetype');
+		url('./fonts/Calibri/Calibri.ttf') format('truetype'),
+		url('./fonts/Calibri/Calibri-Bold.ttf') format('truetype'),
+		url('./fonts/Calibri/Calibri-Italic.ttf') format('truetype'),
+		url('./fonts/Calibri/Calibri-BoldItalic.ttf') format('truetype');
 }
 @font-face {
 	font-family: 'Lato';
-	src: url('../../assets/fonts/Lato/Lato-Regular.ttf') format('truetype'),
-		url('../../assets/fonts/Lato/Lato-Italic.ttf') format('truetype'),
-		url('../../assets/fonts/Lato/Lato-Bold.ttf') format('truetype')
+	src: url('./fonts/Lato/Lato-Regular.ttf') format('truetype'),
+		url('./fonts/Lato/Lato-Italic.ttf') format('truetype'),
+		url('./fonts/Lato/Lato-Bold.ttf') format('truetype')
 	;}
 @font-face {
 	font-family: 'Josefin Slab';
-	src: url('../../assets/fonts/Josefin_Slab/JosefinSlab-Regular.ttf') format('truetype'),
-		url('../../assets/fonts/Josefin_Slab/JosefinSlab-Italic.ttf') format('truetype'),
-		url('../../assets/fonts/Josefin_Slab/JosefinSlab-Bold.ttf') format('truetype')
+	src: url('./fonts/Josefin_Slab/JosefinSlab-Regular.ttf') format('truetype'),
+		url('./fonts/Josefin_Slab/JosefinSlab-Italic.ttf') format('truetype'),
+		url('./fonts/Josefin_Slab/JosefinSlab-Bold.ttf') format('truetype')
 	;}
 @font-face {
 	font-family: 'Raleway';
-	src: url('../../assets/fonts/Raleway/Raleway-Regular.ttf') format('truetype'),
-		url('../../assets/fonts/Raleway/Raleway-Italic.ttf') format('truetype'),
-		url('../../assets/fonts/Raleway/Raleway-Bold.ttf') format('truetype')
+	src: url('./fonts/Raleway/Raleway-Regular.ttf') format('truetype'),
+		url('./fonts/Raleway/Raleway-Italic.ttf') format('truetype'),
+		url('./fonts/Raleway/Raleway-Bold.ttf') format('truetype')
 	;}
 @font-face {
 	font-family: 'Roboto';
-	src: url('../../assets/fonts/Roboto/Roboto-Regular.ttf') format('truetype'),
-		url('../../assets/fonts/Roboto/Roboto-Italic.ttf') format('truetype'),
-		url('../../assets/fonts/Roboto/Roboto-Bold.ttf') format('truetype')
+	src: url('./fonts/Roboto/Roboto-Regular.ttf') format('truetype'),
+		url('./fonts/Roboto/Roboto-Italic.ttf') format('truetype'),
+		url('./fonts/Roboto/Roboto-Bold.ttf') format('truetype')
 	;}
 @font-face {
 	font-family: 'Inconsolata';
-	src: url('../../assets/fonts/Inconsolata/Inconsolata-Regular.ttf') format('truetype'),
-		url('../../assets/fonts/Inconsolata/Inconsolata-Bold.ttf') format('truetype')
+	src: url('./fonts/Inconsolata/Inconsolata-Regular.ttf') format('truetype'),
+		url('./fonts/Inconsolata/Inconsolata-Bold.ttf') format('truetype')
 	;}
 @font-face {
 	font-family: 'Montserrat';
-	src: url('../../assets/fonts/Montserrat/Montserrat-Regular.ttf') format('truetype'),
-		url('../../assets/fonts/Montserrat/Montserrat-Bold.ttf') format('truetype')
+	src: url('./fonts/Montserrat/Montserrat-Regular.ttf') format('truetype'),
+		url('./fonts/Montserrat/Montserrat-Bold.ttf') format('truetype')
 	;}
 @font-face {
 	font-family: 'Oswald';
-	src: url('../../assets/fonts/Oswald/Oswald-Regular.ttf') format('truetype'),
-		url('../../assets/fonts/Oswald/Oswald-Light.ttf') format('truetype'),
-		url('../../assets/fonts/Oswald/Oswald-Bold.ttf') format('truetype')
+	src: url('./fonts/Oswald/Oswald-Regular.ttf') format('truetype'),
+		url('./fonts/Oswald/Oswald-Light.ttf') format('truetype'),
+		url('./fonts/Oswald/Oswald-Bold.ttf') format('truetype')
 	;}
 
 textarea {

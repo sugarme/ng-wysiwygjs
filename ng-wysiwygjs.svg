@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg3321" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="64px" width="64px" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+ <metadata id="metadata3326">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g id="layer1" font-family="Monospace" font-style="normal" font-stretch="normal" font-variant="normal" font-weight="normal">
+  <text id="text3329" style="letter-spacing:0px;word-spacing:0px;" xml:space="preserve" font-size="24px" line-height="125%" y="22" x="16.909092" fill="#000000"><tspan id="tspan3331" x="16.909092" y="22">Ng</tspan><tspan id="tspan3333" x="16.909092" y="51.999996"/></text>
+  <text id="text3340" style="letter-spacing:0px;word-spacing:0px;" xml:space="preserve" font-size="10px" line-height="125%" y="36.000004" x="2.7272727" fill="#000000"><tspan id="tspan3342" x="2.7272727" y="36.000004">wysiwyg.js</tspan></text>
+  <flowRoot id="flowRoot3344" style="letter-spacing:0px;word-spacing:0px;" xml:space="preserve" font-size="10px" line-height="125%" fill="black"><flowRegion id="flowRegion3346"><rect id="rect3348" y="1.0909" width="52.182" x="10.909" height="40.364"/></flowRegion><flowPara id="flowPara3350"/></flowRoot>
+  <text id="text3352" style="letter-spacing:0px;word-spacing:0px;" xml:space="preserve" font-size="10px" line-height="125%" y="49.636364" x="8" fill="#000000"><tspan id="tspan3354" x="8" y="49.636364">Prism.js</tspan></text>
+ </g>
+</svg>
